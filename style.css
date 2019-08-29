@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear {clear: both;}
+main {
+  width: 90%;
+  max-width: 900px;
+  background: #f3f3f3;
+  margin: 30px auto;
+  padding: 25px 35px;
+  
+  background: #ededed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cf8a05;
+}
+
+.title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.title h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.photo {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.contact {
+  float: right;
+}
+
+.contact ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-top: 2px;
+  padding-left: 0;
+}
+
+.contact ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+.contact ul li a,
+a[href^="tel"] {
+  color: #444;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.contact ul li a:hover {
+  color: #cf8a05;
+}
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+    list-style-type: none;
+    padding-left: 0;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
+.keySkills ul li span {
+	border-width: 100px;
+}
+
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+  .photo {
+    display: none;
+  }
+}
+
+@media all and (max-width: 601px) {
+  main {
+    width: 95%;
+    margin: 10px auto;
+    min-width: 280px;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  header {
+      flex-direction: column;
+  }
+
+  title,
+  .contact {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectionTitle,
+  .sectionContent {
+    float: none;
+    width: 100%;
+  }
+
+  .sectionTitle {
+    margin-left: -2px;
+    font-size: 1.25em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  heading {
+    padding: 15px 15px;
+  }
+
+  section {
+    padding: 15px 0 0;
+  }
+
+  .title h1 {
+    line-height: 0.8em;
+    margin-bottom: 4px;
+  }
+}
