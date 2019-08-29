@@ -2,4 +2,4 @@
 
 Third Task in StartNG Internship program
 
-Formatting CV created in HTML with CSS£
+Formatting CV created in HTML with CSS3
