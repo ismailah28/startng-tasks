@@ -1,8 +1,5 @@
-# Task 2
+# Individual Task
 
-## Links
-Click the links below to view the tweet on [@theflutterwave](https://www.twitter.com/theflutterwave) and my blog.
+Third Task in StartNG Internship program
 
-Tweeter Link: [https://twitter.com/ismailah28/status/1164655714415128577](https://twitter.com/ismailah28/status/1164655714415128577)
-
-Lucid Link: [https://lucid.blog/ismailah28/post/1566485563](https://lucid.blog/ismailah28/post/1566485563)
+Formatting CV created in HTML with CSS3
