@@ -111,12 +111,12 @@
 
             <div class="sectionContent">
                 <ul class="keySkills">
-                    <li>HTML5 <progress style="color: red" max="100" value="80"></progress></li>
-                    <li>CSS3 <progress max="100" value="60"></progress></li>
-                    <li>JAVASCRIPT <progress max="100" value="80"></progress></li>
-                    <li>PYTHON <progress max="100" value="80"></progress></li>
-                    <li>SQL <progress max="100" value="70"></progress></li>
-                    <li>DART <progress max="100" value="50"></progress></li>
+                    <li>HTML5 <progress style="color: red" max="100" value="80"></progress> <em>80&percnt;</em></li>
+                    <li>CSS3 <progress max="100" value="60"></progress> <em>60&percnt;</em></li>
+                    <li>JAVASCRIPT <progress max="100" value="80"></progress> <em>80&percnt;</em></li>
+                    <li>PYTHON <progress max="100" value="80"></progress> <em>80&percnt;</em></li>
+                    <li>SQL <progress max="100" value="70"></progress> <em>70&percnt;</em></li>
+                    <li>DART <progress max="100" value="50"></progress> <em>50&percnt;</em></li>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -143,29 +143,30 @@
             <div class="sectionContent">
                 <form action="">
                     <div class="form-control">
-                        <label for="name">Name:</label>
-                        <input type="text" required minlength="4" maxlength="20">
+                        <label for="name">Name <em>Error</em></label>
+                        <input name="name" id="name" type="text" required minlength="4" maxlength="20">
                     </div>
                     <div class="form-control">
-                        <label for="email">Email</label>
-                        <input type="email">
+                        <label for="email">Email <em>Error</em></label>
+                        <input name="email" id="email" type="email">
                     </div>
                     <div class="form-control">
-                        <label for="title">Title</label>
-                        <input type="text">
+                        <label for="title">Title <em>Error</em></label>
+                        <input name="title" id="title" type="text">
                     </div>
                     <div class="form-control">
-                        <label for="message">Message</label>
+                        <label for="message">Message <em>Error</em></label>
                         <textarea name="message" id="message" cols="" rows="5"></textarea>
                     </div>
                     <div class="btn">
-                        <input type="submit" value="Contact Me">
+                        <input type="submit" value="Contact Me"">
                     </div>
                 </form>
             </div>
             <div class="clear"></div>
         </section>
     </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>

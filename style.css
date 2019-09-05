@@ -181,7 +181,6 @@ section:last-child {
   border: none;
   border-radius: 5px;
   font-size: 18px;
-  color: darkgray;
   padding: 5px;
   border: 1px solid #cf8a05;
 }
@@ -197,13 +196,26 @@ section:last-child {
   border: none;
   padding: 5px;
   font-size: 18px;
-  color: darkgray;
   border: 1px solid #cf8a05;
 }
 
 .form-control textarea:focus {
   /* border: none; */
   outline-color: #cf8a05;
+}
+
+label em {
+  color:red;
+  font-weight: 500;
+  display: none;
+  float: right;
+  font-size: 14px;
+}
+
+.form-control .error {
+  outline-color: red;
+  background-color: rgb(248, 92, 71, 0.1);
+  border: 1px solid red;
 }
 
 .btn {
@@ -233,6 +245,8 @@ progress {
   border: 0;
   height: 20px;
   border-radius: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 progress::-webkit-progress-bar {
