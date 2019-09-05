@@ -1,5 +1,5 @@
 # Individual Task
 
-Third Task in StartNG Internship program
+## Task 3
 
-Formatting CV created in HTML with CSS3
+Formatted CV with contact form and validation
